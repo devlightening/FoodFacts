@@ -8,6 +8,7 @@ node_modules/
 dist/
 web-build/
 expo-env.d.ts
+backend/data/
 
 # Native
 .kotlin/
@@ -20,11 +21,13 @@ expo-env.d.ts
 
 # Metro
 .metro-health-check*
+.expo-start*.log
 
 # debug
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+backend/.backend*.log
 
 # macOS
 .DS_Store
